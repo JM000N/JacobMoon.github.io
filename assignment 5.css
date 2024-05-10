@@ -1,0 +1,18 @@
+
+textarea {
+    width: 30ch;
+    height: 4em; 
+    resize: none; 
+}
+
+fieldset {
+    border: 1px solid #000000;
+    width: fit-content; 
+    padding: 10px;
+}
+
+
+
+footer{
+    padding-top: 20%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<script src="fancifymytext.js"></script>
+        <link rel="stylesheet" href="assignment 5.css">
+	</head>
+ 
+
+
+	<body>
+		<h1>Fancify my Text</h1>
+		<fieldset>
+            <legend>Text</legend>
+            <textarea id="textBoxInput" placeholder="Enter your text here!"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fancify</legend>
+            <input type="radio" id="fancyshmancy" name="style" value="fancyshmancy" onchange="applyStyle()"/>
+            <label for="fancyshmancy">FancyShmancy</label><br>
+        
+            <input type="radio" id="boringbetty" name="style" value="boringbetty" onchange="applyStyle()"/>
+            <label for="boringbetty">BoringBetty</label><br>
+
+            <button type="button" onClick="biggerText()">Bigger</button>
+            <button type="button" >Reset</button>
+
+
+            <button onClick="moo()">Moo</button>
+        </fieldset>
+		
+	</body>
+
+
+
+    <footer>
+        <a href="index.html">Go Back</a>
+
+    </footer>
+    
+
+
+</html>
